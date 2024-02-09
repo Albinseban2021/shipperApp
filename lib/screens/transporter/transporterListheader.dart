@@ -23,7 +23,7 @@ Container transporterHeader(context) {
     containerWidth = 100;
   }
   return Container(
-    height: 80,
+    height: 90,
     decoration: const BoxDecoration(
         color: headerColor,
         borderRadius: BorderRadius.only(
@@ -40,7 +40,7 @@ Container transporterHeader(context) {
               overflow: TextOverflow.ellipsis,
               softWrap: false,
               style: TextStyle(
-                fontWeight: mediumBoldWeight,
+                fontWeight: boldWeight,
                 color: black,
                 fontSize: textFontSize,
                 fontFamily: 'Montserrat',
@@ -62,7 +62,7 @@ Container transporterHeader(context) {
               overflow: TextOverflow.ellipsis,
               softWrap: false,
               style: TextStyle(
-                fontWeight: mediumBoldWeight,
+                fontWeight: boldWeight,
                 color: black,
                 fontSize: textFontSize,
                 fontFamily: 'Montserrat',
@@ -84,7 +84,7 @@ Container transporterHeader(context) {
               overflow: TextOverflow.ellipsis,
               softWrap: false,
               style: TextStyle(
-                fontWeight: mediumBoldWeight,
+                fontWeight: boldWeight,
                 color: black,
                 fontSize: textFontSize,
                 fontFamily: 'Montserrat',
@@ -105,7 +105,7 @@ Container transporterHeader(context) {
             overflow: TextOverflow.ellipsis,
             softWrap: false,
             style: TextStyle(
-              fontWeight: mediumBoldWeight,
+              fontWeight: boldWeight,
               color: black,
               fontSize: textFontSize,
               fontFamily: 'Montserrat',
@@ -126,7 +126,7 @@ Container transporterHeader(context) {
               overflow: TextOverflow.ellipsis,
               softWrap: false,
               style: TextStyle(
-                fontWeight: mediumBoldWeight,
+                fontWeight: boldWeight,
                 color: black,
                 fontSize: textFontSize,
                 fontFamily: 'Montserrat',
@@ -146,7 +146,7 @@ Container transporterHeader(context) {
               'Vendor Code',
               textAlign: TextAlign.center,
               style: TextStyle(
-                  fontWeight: mediumBoldWeight,
+                  fontWeight: boldWeight,
                   fontSize: textFontSize,
                   color: black,
                   fontFamily: 'Montserrat'),

@@ -8,6 +8,7 @@ import 'package:shipper_app/Web/screens/home_web.dart';
 import 'package:shipper_app/Widgets/invoice_details_dailog.dart';
 import 'package:shipper_app/Widgets/invoice_header.dart';
 import 'package:shipper_app/constants/colors.dart';
+import 'package:shipper_app/constants/fontSize.dart';
 import 'package:shipper_app/constants/fontWeights.dart';
 import 'package:shipper_app/constants/screens.dart';
 import 'package:shipper_app/controller/shipperIdController.dart';
@@ -132,8 +133,8 @@ class _InvoiceScreenState extends State<InvoiceScreen> {
                   'Invoice',
                   style: GoogleFonts.montserrat(
                     fontWeight: mediumBoldWeight,
-                    fontSize: 24,
-                    color: Colors.black,
+                    fontSize: size_15 + 2,
+                    color: darkBlueColor,
                   ),
                 ),
               ),

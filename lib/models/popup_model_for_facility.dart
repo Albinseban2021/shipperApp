@@ -4,16 +4,24 @@ import 'package:shipper_app/constants/colors.dart';
 class PopUpMenuForFacility {
   final String text;
   final Color color;
+  final IconData icon;
   const PopUpMenuForFacility({
     required this.text,
     required this.color,
+    required this.icon,
   });
 }
 
 class MenuItemFacility {
-  static const editText =
-      PopUpMenuForFacility(text: "Edit Facility", color: Colors.black);
-  static const deleteText =
-      PopUpMenuForFacility(text: "Delete Facility", color: declineButtonRed);
+  static const editText = PopUpMenuForFacility(
+    text: "Edit Facility",
+    color: darkBlueColor,
+    icon: Icons.edit_outlined,
+  );
+  static const deleteText = PopUpMenuForFacility(
+    text: "Delete Facility",
+    color: darkBlueColor,
+    icon: Icons.edit_outlined,
+  );
   static List<PopUpMenuForFacility> listItem = [editText, deleteText];
 }

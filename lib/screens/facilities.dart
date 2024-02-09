@@ -144,13 +144,31 @@ class _FacilitiesState extends State<Facilities> {
                   style: ButtonStyle(
                     backgroundColor: MaterialStateProperty.all(Colors.white),
                     side: MaterialStateProperty.all(
-                        const BorderSide(color: kLiveasyColor, width: 2.0)),
+                        const BorderSide(color: kLiveasyColor, width: 1.0)),
                     minimumSize: MaterialStateProperty.all(
                         Size(screenWidth * 0.175, 50)),
+                    shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                      RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10),
+                      ),
+                    ),
+                    surfaceTintColor:
+                        const MaterialStatePropertyAll(Colors.transparent),
                   ),
-                  child: const Text(
-                    "+  Add Facility",
-                    style: TextStyle(color: kLiveasyColor, fontSize: 18),
+                  child: Row(
+                    children: [
+                      Text(
+                        "+",
+                        style: TextStyle(
+                            fontSize: 30,
+                            color: kLiveasyColor,
+                            fontWeight: normalWeight),
+                      ),
+                      const Text(
+                        "  Add Facility",
+                        style: TextStyle(color: kLiveasyColor, fontSize: 18),
+                      ),
+                    ],
                   ))
             ],
           ),
