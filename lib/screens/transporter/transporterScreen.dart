@@ -61,7 +61,7 @@ class _TransporterScreenState extends State<TransporterScreen> {
               "Transporter",
               style: TextStyle(
                 fontSize: size_15 + 2,
-                color: black,
+                color: darkBlueColor,
                 fontWeight: mediumBoldWeight,
               ),
             ),
@@ -140,6 +140,8 @@ class _TransporterScreenState extends State<TransporterScreen> {
                         borderRadius: BorderRadius.circular(10),
                       ),
                     ),
+                    surfaceTintColor:
+                        const MaterialStatePropertyAll(Colors.transparent),
                   ),
                   child: Row(
                     children: [
@@ -246,7 +248,7 @@ class _TransporterScreenState extends State<TransporterScreen> {
                 style: TextStyle(
                   color: black,
                   fontSize: size_9,
-                  fontWeight: normalWeight,
+                  fontWeight: mediumBoldWeight,
                 ),
               ),
             ),
@@ -265,7 +267,7 @@ class _TransporterScreenState extends State<TransporterScreen> {
                 style: TextStyle(
                   color: black,
                   fontSize: size_9,
-                  fontWeight: normalWeight,
+                  fontWeight: mediumBoldWeight,
                 ),
               ),
             ),
@@ -284,7 +286,7 @@ class _TransporterScreenState extends State<TransporterScreen> {
                 style: TextStyle(
                   color: black,
                   fontSize: size_9,
-                  fontWeight: normalWeight,
+                  fontWeight: mediumBoldWeight,
                 ),
               ),
             ),
@@ -303,7 +305,7 @@ class _TransporterScreenState extends State<TransporterScreen> {
                 style: TextStyle(
                   color: black,
                   fontSize: size_8,
-                  fontWeight: normalWeight,
+                  fontWeight: mediumBoldWeight,
                 ),
               ),
             ),
@@ -322,7 +324,7 @@ class _TransporterScreenState extends State<TransporterScreen> {
                 style: TextStyle(
                   color: black,
                   fontSize: size_8,
-                  fontWeight: normalWeight,
+                  fontWeight: mediumBoldWeight,
                 ),
               ),
             ),
@@ -345,7 +347,7 @@ class _TransporterScreenState extends State<TransporterScreen> {
                     style: TextStyle(
                       color: black,
                       fontSize: size_8,
-                      fontWeight: normalWeight,
+                      fontWeight: mediumBoldWeight,
                     ),
                   ),
                 ),
