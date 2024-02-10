@@ -235,7 +235,8 @@ class _TransporterScreenState extends State<TransporterScreen> {
       required final String panNumber,
       required final String id}) {
     return Container(
-      height: 90,
+      height: 50,
+      color: white,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
@@ -247,7 +248,7 @@ class _TransporterScreenState extends State<TransporterScreen> {
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: black,
-                  fontSize: size_9,
+                  fontSize: size_8,
                   fontWeight: mediumBoldWeight,
                 ),
               ),
@@ -266,7 +267,7 @@ class _TransporterScreenState extends State<TransporterScreen> {
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: black,
-                  fontSize: size_9,
+                  fontSize: size_8,
                   fontWeight: mediumBoldWeight,
                 ),
               ),
@@ -285,7 +286,7 @@ class _TransporterScreenState extends State<TransporterScreen> {
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: black,
-                  fontSize: size_9,
+                  fontSize: size_8,
                   fontWeight: mediumBoldWeight,
                 ),
               ),
@@ -420,7 +421,7 @@ class _TransporterScreenState extends State<TransporterScreen> {
   Widget transporterShimmerRow(double screenWidth) {
     // Adjust this method according to your shimmer design
     return Container(
-      height: 70,
+      height: 50,
       decoration: const BoxDecoration(
         border: Border(bottom: BorderSide(color: greyShade, width: 1)),
       ),

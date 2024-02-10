@@ -23,7 +23,7 @@ Container transporterHeader(context) {
     containerWidth = 100;
   }
   return Container(
-    height: 90,
+    height: 70,
     decoration: const BoxDecoration(
         color: headerColor,
         borderRadius: BorderRadius.only(

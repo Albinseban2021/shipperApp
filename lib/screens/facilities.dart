@@ -449,12 +449,24 @@ class _FacilitiesState extends State<Facilities> {
         value: item,
         child: Column(
           children: [
-            Text(
-              item.text,
-              style: TextStyle(
-                fontWeight: mediumBoldWeight,
-                color: item.color,
-              ),
+            // Display each item with an icon and text
+            Row(
+              children: [
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 10),
+                  child: Icon(
+                    item.icon,
+                    color: item.color,
+                  ),
+                ),
+                Text(
+                  item.text,
+                  style: TextStyle(
+                    fontWeight: mediumBoldWeight,
+                    color: item.color,
+                  ),
+                ),
+              ],
             ),
           ],
         ),

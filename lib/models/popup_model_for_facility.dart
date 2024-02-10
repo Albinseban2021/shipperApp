@@ -14,12 +14,12 @@ class PopUpMenuForFacility {
 
 class MenuItemFacility {
   static const editText = PopUpMenuForFacility(
-    text: "Edit Facility",
+    text: "Edit ",
     color: darkBlueColor,
     icon: Icons.edit_outlined,
   );
   static const deleteText = PopUpMenuForFacility(
-    text: "Delete Facility",
+    text: "Delete ",
     color: darkBlueColor,
     icon: Icons.edit_outlined,
   );
